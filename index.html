@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Survey form to know some stuff</p>
+<form id="survey-form">
+  <div id="form-div">
+    <label id="name-label">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+  </div>
+  <div id="form-div">
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="Enter your Email" required>
+  </div>
+  <div id="form-div">
+    <label id="number-label">Age</label>
+    <input id="number" type="number" min="18" max="60" placeholder="Enter your age">
+  </div>
+  <div id="form-div">
+    <label id="rol-label">What is your rol right now?</label>
+    <select id="dropdown">
+      <option value="student">Student</option>
+      <option value="job">Full time job</option>
+      <option value="other">Other</option>
+      <select>
+  </div>
+  <div id="form-div">
+    <label id="recommend-label">Would you recommend freecodecamp to a friend?</label>
+    <ul>
+      <li>
+        <input type="radio" name="recommend" value="definitely">Definitely</input>
+      </li>
+      <li>
+        <input type="radio" name="recommend" value="maybe">Maybe</input>
+      </li>
+      <li>
+        <input type="radio" name="recommend" value="Not-sure">Not sure</input>
+      </li>
+      <ul>
+  </div>
+  <div id="form-div">
+    <label id="improve-label">What would you like to improve in the site?</abel>
+      <ul>
+        <li>
+          <input type="checkbox" name="improve" value="front-end">Front end</input>
+        </li>
+        <li>
+          <input type="checkbox" name="improve" value="back-end">Back end</input>
+        </li>
+      </ul>
+      <div>
+        <div id="form-div">
+          <label id="comments-label">Enter any additional comments<label><br>
+              <textarea id="comments" placeholder="Enter any additional comments"></textarea>
+        </div>
+        <div id="submit-label">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+</form>
+</body>
+</html>
